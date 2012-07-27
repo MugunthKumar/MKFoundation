@@ -8,11 +8,23 @@
 
 #import "MKAppDelegate.h"
 
+#import "Parse/Parse.h"
+
 @implementation MKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+  [Parse setApplicationId:@"TDoZXsJPgFqeQtBHKFEajLM03QR3Xyg2KyuaChJv"
+                clientKey:@"RB0GgVrmbhv2qjOSgXasf0z1ie5kyjPpRwNKo5AS"];
+  
+  [PFUser enableAutomaticUser];
+  PFACL *defaultACL = [PFACL ACL];
+  // Optionally enable public read access by default.
+  [defaultACL setPublicReadAccess:YES];
+  [defaultACL setPublicWriteAccess:YES];
+  [PFACL setDefaultACL:defaultACL withAccessForCurrentUser:YES];
+
     return YES;
 }
 							

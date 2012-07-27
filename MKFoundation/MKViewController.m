@@ -8,6 +8,12 @@
 
 #import "MKViewController.h"
 
+#import "Parse/Parse.h"
+
+#import "TestNode.h"
+
+#import "TestLeaf.h"
+
 @interface MKViewController ()
 
 @end
@@ -18,6 +24,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+  TestNode *node = [[TestNode alloc] init];
+  node.secondGreeting = @"HelloWorld";
+  node.embeddedObject = [[TestLeaf alloc] init];
+  
+  node.embeddedObject.greeting = @"Welcome";
+  
+  PFObject *magicObject = [node pfObject];
 }
 
 - (void)didReceiveMemoryWarning
