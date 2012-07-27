@@ -15,23 +15,23 @@
 		AB544B0315C25DD100B0B1CF /* MKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB544B0215C25DD100B0B1CF /* MKAppDelegate.m */; };
 		AB544B0615C25DD100B0B1CF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB544B0415C25DD100B0B1CF /* MainStoryboard.storyboard */; };
 		AB544B0915C25DD100B0B1CF /* MKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB544B0815C25DD100B0B1CF /* MKViewController.m */; };
-		AB544B1415C25DF800B0B1CF /* MKObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AB544B1115C25DF800B0B1CF /* MKObject.m */; };
 		AB544B2615C25E0B00B0B1CF /* DDXMLElementAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AB544B1915C25E0B00B0B1CF /* DDXMLElementAdditions.m */; };
 		AB544B2715C25E0B00B0B1CF /* NSString+DDXML.m in Sources */ = {isa = PBXBuildFile; fileRef = AB544B1C15C25E0B00B0B1CF /* NSString+DDXML.m */; };
 		AB544B2815C25E0B00B0B1CF /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = AB544B1F15C25E0B00B0B1CF /* DDXMLDocument.m */; };
 		AB544B2915C25E0B00B0B1CF /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = AB544B2115C25E0B00B0B1CF /* DDXMLElement.m */; };
 		AB544B2A15C25E0B00B0B1CF /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AB544B2315C25E0B00B0B1CF /* DDXMLNode.m */; };
 		AB544B2C15C25E5F00B0B1CF /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AB544B2B15C25E5F00B0B1CF /* libxml2.dylib */; };
-		AB544B3715C2624300B0B1CF /* MKObject+XMLExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AB544B3615C2624300B0B1CF /* MKObject+XMLExtensions.m */; };
-		AB544B3A15C2644600B0B1CF /* MKObject+ParseExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AB544B3915C2644600B0B1CF /* MKObject+ParseExtensions.m */; };
 		AB544B3C15C264A000B0B1CF /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB544B3B15C264A000B0B1CF /* Parse.framework */; };
 		AB544B3E15C264ED00B0B1CF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB544B3D15C264ED00B0B1CF /* AudioToolbox.framework */; };
 		AB544B4015C264F100B0B1CF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB544B3F15C264F100B0B1CF /* MobileCoreServices.framework */; };
 		AB544B4215C264F800B0B1CF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB544B4115C264F800B0B1CF /* SystemConfiguration.framework */; };
 		AB544B4415C264FC00B0B1CF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB544B4315C264FC00B0B1CF /* Security.framework */; };
 		AB544B4615C2650400B0B1CF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB544B4515C2650400B0B1CF /* CFNetwork.framework */; };
-		AB544B4B15C2656900B0B1CF /* TestLeaf.m in Sources */ = {isa = PBXBuildFile; fileRef = AB544B4815C2656800B0B1CF /* TestLeaf.m */; };
-		AB544B4C15C2656900B0B1CF /* TestNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AB544B4A15C2656900B0B1CF /* TestNode.m */; };
+		AB544B5915C2663600B0B1CF /* MKObject+ParseExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AB544B4F15C2663600B0B1CF /* MKObject+ParseExtensions.m */; };
+		AB544B5A15C2663600B0B1CF /* MKObject+XMLExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AB544B5115C2663600B0B1CF /* MKObject+XMLExtensions.m */; };
+		AB544B5B15C2663600B0B1CF /* MKObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AB544B5315C2663600B0B1CF /* MKObject.m */; };
+		AB544B5C15C2663600B0B1CF /* TestLeaf.m in Sources */ = {isa = PBXBuildFile; fileRef = AB544B5615C2663600B0B1CF /* TestLeaf.m */; };
+		AB544B5D15C2663600B0B1CF /* TestNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AB544B5815C2663600B0B1CF /* TestNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,8 +48,6 @@
 		AB544B0515C25DD100B0B1CF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		AB544B0715C25DD100B0B1CF /* MKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKViewController.h; sourceTree = "<group>"; };
 		AB544B0815C25DD100B0B1CF /* MKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKViewController.m; sourceTree = "<group>"; };
-		AB544B1015C25DF800B0B1CF /* MKObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKObject.h; sourceTree = "<group>"; };
-		AB544B1115C25DF800B0B1CF /* MKObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKObject.m; sourceTree = "<group>"; };
 		AB544B1815C25E0B00B0B1CF /* DDXMLElementAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElementAdditions.h; sourceTree = "<group>"; };
 		AB544B1915C25E0B00B0B1CF /* DDXMLElementAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElementAdditions.m; sourceTree = "<group>"; };
 		AB544B1B15C25E0B00B0B1CF /* NSString+DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DDXML.h"; sourceTree = "<group>"; };
@@ -63,20 +61,22 @@
 		AB544B2315C25E0B00B0B1CF /* DDXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLNode.m; sourceTree = "<group>"; };
 		AB544B2515C25E0B00B0B1CF /* DDXMLPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLPrivate.h; sourceTree = "<group>"; };
 		AB544B2B15C25E5F00B0B1CF /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
-		AB544B3515C2624300B0B1CF /* MKObject+XMLExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKObject+XMLExtensions.h"; sourceTree = "<group>"; };
-		AB544B3615C2624300B0B1CF /* MKObject+XMLExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKObject+XMLExtensions.m"; sourceTree = "<group>"; };
-		AB544B3815C2644600B0B1CF /* MKObject+ParseExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKObject+ParseExtensions.h"; sourceTree = "<group>"; };
-		AB544B3915C2644600B0B1CF /* MKObject+ParseExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKObject+ParseExtensions.m"; sourceTree = "<group>"; };
 		AB544B3B15C264A000B0B1CF /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		AB544B3D15C264ED00B0B1CF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		AB544B3F15C264F100B0B1CF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		AB544B4115C264F800B0B1CF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		AB544B4315C264FC00B0B1CF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		AB544B4515C2650400B0B1CF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		AB544B4715C2656800B0B1CF /* TestLeaf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestLeaf.h; sourceTree = "<group>"; };
-		AB544B4815C2656800B0B1CF /* TestLeaf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestLeaf.m; sourceTree = "<group>"; };
-		AB544B4915C2656800B0B1CF /* TestNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNode.h; sourceTree = "<group>"; };
-		AB544B4A15C2656900B0B1CF /* TestNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNode.m; sourceTree = "<group>"; };
+		AB544B4E15C2663600B0B1CF /* MKObject+ParseExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKObject+ParseExtensions.h"; sourceTree = "<group>"; };
+		AB544B4F15C2663600B0B1CF /* MKObject+ParseExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKObject+ParseExtensions.m"; sourceTree = "<group>"; };
+		AB544B5015C2663600B0B1CF /* MKObject+XMLExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKObject+XMLExtensions.h"; sourceTree = "<group>"; };
+		AB544B5115C2663600B0B1CF /* MKObject+XMLExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKObject+XMLExtensions.m"; sourceTree = "<group>"; };
+		AB544B5215C2663600B0B1CF /* MKObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKObject.h; sourceTree = "<group>"; };
+		AB544B5315C2663600B0B1CF /* MKObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKObject.m; sourceTree = "<group>"; };
+		AB544B5515C2663600B0B1CF /* TestLeaf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestLeaf.h; sourceTree = "<group>"; };
+		AB544B5615C2663600B0B1CF /* TestLeaf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestLeaf.m; sourceTree = "<group>"; };
+		AB544B5715C2663600B0B1CF /* TestNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNode.h; sourceTree = "<group>"; };
+		AB544B5815C2663600B0B1CF /* TestNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,16 +163,8 @@
 		AB544B0F15C25DED00B0B1CF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				AB544B4715C2656800B0B1CF /* TestLeaf.h */,
-				AB544B4815C2656800B0B1CF /* TestLeaf.m */,
-				AB544B4915C2656800B0B1CF /* TestNode.h */,
-				AB544B4A15C2656900B0B1CF /* TestNode.m */,
-				AB544B1015C25DF800B0B1CF /* MKObject.h */,
-				AB544B1115C25DF800B0B1CF /* MKObject.m */,
-				AB544B3815C2644600B0B1CF /* MKObject+ParseExtensions.h */,
-				AB544B3915C2644600B0B1CF /* MKObject+ParseExtensions.m */,
-				AB544B3515C2624300B0B1CF /* MKObject+XMLExtensions.h */,
-				AB544B3615C2624300B0B1CF /* MKObject+XMLExtensions.m */,
+				AB544B4D15C2663500B0B1CF /* MKFoundation */,
+				AB544B5415C2663600B0B1CF /* Tests */,
 			);
 			name = Classes;
 			path = MKFoundation/Classes;
@@ -219,6 +211,30 @@
 				AB544B2515C25E0B00B0B1CF /* DDXMLPrivate.h */,
 			);
 			path = Private;
+			sourceTree = "<group>";
+		};
+		AB544B4D15C2663500B0B1CF /* MKFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				AB544B4E15C2663600B0B1CF /* MKObject+ParseExtensions.h */,
+				AB544B4F15C2663600B0B1CF /* MKObject+ParseExtensions.m */,
+				AB544B5015C2663600B0B1CF /* MKObject+XMLExtensions.h */,
+				AB544B5115C2663600B0B1CF /* MKObject+XMLExtensions.m */,
+				AB544B5215C2663600B0B1CF /* MKObject.h */,
+				AB544B5315C2663600B0B1CF /* MKObject.m */,
+			);
+			path = MKFoundation;
+			sourceTree = "<group>";
+		};
+		AB544B5415C2663600B0B1CF /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AB544B5515C2663600B0B1CF /* TestLeaf.h */,
+				AB544B5615C2663600B0B1CF /* TestLeaf.m */,
+				AB544B5715C2663600B0B1CF /* TestNode.h */,
+				AB544B5815C2663600B0B1CF /* TestNode.m */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,16 +304,16 @@
 				AB544AFF15C25DD100B0B1CF /* main.m in Sources */,
 				AB544B0315C25DD100B0B1CF /* MKAppDelegate.m in Sources */,
 				AB544B0915C25DD100B0B1CF /* MKViewController.m in Sources */,
-				AB544B1415C25DF800B0B1CF /* MKObject.m in Sources */,
 				AB544B2615C25E0B00B0B1CF /* DDXMLElementAdditions.m in Sources */,
 				AB544B2715C25E0B00B0B1CF /* NSString+DDXML.m in Sources */,
 				AB544B2815C25E0B00B0B1CF /* DDXMLDocument.m in Sources */,
 				AB544B2915C25E0B00B0B1CF /* DDXMLElement.m in Sources */,
 				AB544B2A15C25E0B00B0B1CF /* DDXMLNode.m in Sources */,
-				AB544B3715C2624300B0B1CF /* MKObject+XMLExtensions.m in Sources */,
-				AB544B3A15C2644600B0B1CF /* MKObject+ParseExtensions.m in Sources */,
-				AB544B4B15C2656900B0B1CF /* TestLeaf.m in Sources */,
-				AB544B4C15C2656900B0B1CF /* TestNode.m in Sources */,
+				AB544B5915C2663600B0B1CF /* MKObject+ParseExtensions.m in Sources */,
+				AB544B5A15C2663600B0B1CF /* MKObject+XMLExtensions.m in Sources */,
+				AB544B5B15C2663600B0B1CF /* MKObject.m in Sources */,
+				AB544B5C15C2663600B0B1CF /* TestLeaf.m in Sources */,
+				AB544B5D15C2663600B0B1CF /* TestNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

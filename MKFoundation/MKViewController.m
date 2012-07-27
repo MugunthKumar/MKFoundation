@@ -31,6 +31,15 @@
   node.embeddedObject.greeting = @"Welcome";
   
   PFObject *magicObject = [node pfObject];
+  
+  [magicObject saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+    
+    if(!succeeded)
+      NSLog(@"%@", error);
+    else
+      NSLog(@"All done");
+    
+  }];
 }
 
 - (void)didReceiveMemoryWarning
