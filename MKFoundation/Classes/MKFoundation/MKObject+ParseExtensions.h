@@ -40,4 +40,5 @@
 
 @interface MKObject (MKParseKit)
 -(PFObject*) pfObject;
++(id) objectFromPFObject:(PFObject*) pfObject;
 @end

@@ -15,6 +15,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+#error Replace this with your own Parse application Id and client key here
   [Parse setApplicationId:@"TDoZXsJPgFqeQtBHKFEajLM03QR3Xyg2KyuaChJv"
                 clientKey:@"RB0GgVrmbhv2qjOSgXasf0z1ie5kyjPpRwNKo5AS"];
   

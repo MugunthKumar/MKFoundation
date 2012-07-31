@@ -39,4 +39,8 @@
 -(id) initWithJSONData:(NSData*) data;
 -(id) initWithJSONString:(NSString*) string;
 -(id) initWithDictionary:(NSDictionary*) jsonObject;
+
+-(NSDictionary*) objectAsDictionary;
+- (NSString *)jsonString;
+- (NSString *)prettyJsonString;
 @end

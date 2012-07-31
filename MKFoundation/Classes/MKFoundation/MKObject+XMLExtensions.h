@@ -39,6 +39,7 @@
 +(void) registerKnownClass:(Class) class;
 -(id) initWithXMLString:(NSString*) xmlString;
 -(id) initWithDDXMLElement:(DDXMLElement*) element;
+
 -(DDXMLDocument*) xmlRepresentation;
 -(DDXMLDocument*) xmlRepresentationWithName:(NSString*) name;
 @end
