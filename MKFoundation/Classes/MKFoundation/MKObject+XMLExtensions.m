@@ -156,7 +156,8 @@ static NSMutableArray *knownClasses;
       else if (value && (id)value != [NSNull null]) {
         
         char firstChar = [propertyName characterAtIndex:0];
-        if(firstChar >= 'A' && firstChar <= 'Z') {
+        if((firstChar >= 'A' && firstChar <= 'Z') || (firstChar >= 'a' && firstChar <= 'z')) {
+          //unicode and numbers causes occasional problems with DDXMLNode
           DDXMLNode *node = [DDXMLNode elementWithName:propertyName stringValue:[value description]];
           [rootElement addChild:node];
         }
