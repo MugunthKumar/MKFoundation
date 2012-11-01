@@ -74,6 +74,18 @@
   }
   
   NSObject *objcObject = [[klass alloc] init];
+  
+  NSArray *propertyArray = [[NSArray alloc] initWithObjects:@"objectId", @"updatedAt", @"createdAt", @"className", nil ];
+  [propertyArray enumerateObjectsUsingBlock:^(id property, NSUInteger idx, BOOL *stop) {
+    id value = [pfObject valueForKey:property];
+   
+    if([objcObject respondsToSelector:NSSelectorFromString(property)]) {
+        [objcObject setValue:[pfObject valueForKey:property] forKey:property];
+    }else{
+        NSLog(@"Class %@ doesn't define a property by name %@", [pfObject className], property);
+    }
+  }];
+  
   NSArray *keysArray = [pfObject allKeys];
   [keysArray enumerateObjectsUsingBlock:^(id key, NSUInteger idx, BOOL *stop) {
     
