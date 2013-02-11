@@ -152,6 +152,10 @@ static NSMutableArray *knownClasses;
         DDXMLDocument *childDoc = [((MKObject*)value) xmlRepresentationWithName:propertyName];
         DDXMLElement *childElement = [[childDoc rootElement] copy];
         [rootElement addChild:childElement];
+      }else if([value isKindOfClass:[NSDictionary class]]){
+          [(NSDictionary *)value enumerateKeysAndObjectsUsingBlock:^(id key, MKObject *obj, BOOL *stop) {
+              [rootElement addAttributeWithName:key stringValue:obj];
+          }];
       }
       else if (value && (id)value != [NSNull null]) {
         
