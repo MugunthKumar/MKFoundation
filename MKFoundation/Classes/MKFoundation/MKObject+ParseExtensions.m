@@ -66,10 +66,10 @@
 
 +(id) objectFromPFObject:(PFObject*) pfObject {
  
-  Class klass = NSClassFromString([pfObject className]);
+  Class klass = NSClassFromString([pfObject parseClassName]);
   if(!klass) {
    
-    NSLog(@"Class %@ is not available in target", [pfObject className]);
+    NSLog(@"Class %@ is not available in target", [pfObject parseClassName]);
     return nil;
   }
   
@@ -87,7 +87,7 @@
       [objcObject setValue:value forKey:key];
     } else {
       
-      NSLog(@"Class %@ doesn't define a property by name %@", [pfObject className], key);
+      NSLog(@"Class %@ doesn't define a property by name %@", [pfObject parseClassName], key);
     }
   }];
   
